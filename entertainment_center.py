@@ -1,11 +1,11 @@
 import fresh_tomatoes
 import media
 
-toy_story = media.Movie(
-        "Toy Story",
-        "A story of a boy and his toys that come to life",
-        "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-        "https://www.youtube.com/watch?v=vwyZH85NQC4"
+monty_python_and_the_holy_grail = media.Movie(
+        "Monty Python and the Holy Grail",
+        "The story of King Arthur and the Knights of Camelot",
+        "https://upload.wikimedia.org/wikipedia/en/4/49/Monty_python_and_the_holy_grail_2001_release_movie_poster.jpg",
+        "https://www.youtube.com/watch?t=1&v=zIbx7jU35X0"
     )
 
 godfather = media.Movie(
@@ -43,7 +43,8 @@ lord_of_the_rings = media.Movie(
         "https://www.youtube.com/watch?t=1&v=Wmm5SNcjLvo"
 )
 
-movies = [toy_story, godfather, accidental_tourist, mad_max_fury_road, star_wars, lord_of_the_rings]
+movies = [monty_python_and_the_holy_grail, godfather, accidental_tourist,
+          mad_max_fury_road, star_wars, lord_of_the_rings]
 fresh_tomatoes.open_movies_page(movies)
 # print(media.Movie.VALID_RATINGS)
 # print(media.Movie.__doc__)
