@@ -46,5 +46,3 @@ lord_of_the_rings = media.Movie(
 movies = [monty_python_and_the_holy_grail, godfather, accidental_tourist,
           mad_max_fury_road, star_wars, lord_of_the_rings]
 fresh_tomatoes.open_movies_page(movies)
-# print(media.Movie.VALID_RATINGS)
-# print(media.Movie.__doc__)
