@@ -7,7 +7,7 @@ class Movie():
 
     Attributes:
         title: The movie's title
-        storyline: A very brief description of the movie_title
+        storyline: A very brief description of the movie
         poster_image_url: The URL of an image of the movie's poster_image
         trailer_youtube_url: The Youtube URL of the movie's trailer
         rating: The MPAA assigned movie rating
