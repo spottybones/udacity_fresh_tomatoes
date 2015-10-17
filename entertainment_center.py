@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+# instantiate several movie instances and add to a list
 monty_python_and_the_holy_grail = media.Movie(
         "Monty Python and the Holy Grail",
         "The story of King Arthur and the Knights of Camelot",
@@ -51,4 +52,6 @@ lord_of_the_rings = media.Movie(
 
 movies = [monty_python_and_the_holy_grail, godfather, accidental_tourist,
           mad_max_fury_road, star_wars, lord_of_the_rings]
+
+# generate an HTML page to display movies and open it in a web browser
 fresh_tomatoes.open_movies_page(movies)
