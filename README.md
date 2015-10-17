@@ -29,11 +29,11 @@ The project contains the following files:
 
 ## Running the project
 
-After downloading the project files change to the directory holding them and
-run:
+After downloading and, if necessary, unzipping the project files, change to the
+directory holding them and run:
 
     $ python entertainment_center.py
 
-
+A new browser window should open and display the movies page.
 
 [1]: https://github.com/spottybones/udacity_fresh_tomatoes/archive/master.zip
